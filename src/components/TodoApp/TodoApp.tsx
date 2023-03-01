@@ -1,0 +1,43 @@
+import React, { useState } from "react";
+import InputField from "./InputField";
+import { Todo } from "./model";
+import TodoList from "./TodoList/TodoList";
+
+const TodoApp:React.FC = () => {
+    const [todo, setTodo] = useState<string>("");
+    const [todos, setTodos] = useState<Todo[]>([]);
+  
+    const handleAdd = (e: React.FormEvent) => {
+      e.preventDefault();
+      if (todo) {
+        setTodos([...todos, { id: Date.now(), todo: todo, isDone: false }]);
+        setTodo("");
+      }
+    };
+  
+    return (
+      <div className="flex flex-col items-center justify-center h-screen bg-gray-900 select-none">
+        <h1 className="mb-8 text-3xl font-bold text-white">
+          What am I upto at the moment? 
+        </h1>
+        <div className="flex flex-col items-start w-1/2 p-8 bg-gray-700 rounded-lg">
+          <label
+            htmlFor="inputField"
+            className="mb-2 text-lg font-medium text-white"
+          >
+            Learning React with Typescript. I just built a Todo app with it. Wanna check it out?
+            <br />
+            <br />
+            Type something + hit Enter!
+          </label>
+          <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
+  
+          <div className="flex flex-wrap text-white">
+            <TodoList todos={todos} setTodos={setTodos} />
+          </div>
+        </div>
+      </div>
+    );
+}
+
+export default TodoApp;

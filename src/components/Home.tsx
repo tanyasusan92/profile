@@ -2,6 +2,7 @@ import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
 import Header from "./Header";
+import TodoApp from "./TodoApp/TodoApp";
 
 function Home() {
   return (
@@ -24,6 +25,9 @@ function Home() {
       </div>
       <div id="aboutRef">
         <About />
+      </div>
+      <div id="servicesRef">
+        <TodoApp />
       </div>
       <div id="servicesRef">
         <Services />

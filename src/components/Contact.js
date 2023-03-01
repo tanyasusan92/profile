@@ -25,7 +25,7 @@ function Contact() {
               type="text"
               name="first-name"
               id="first-name"
-              className="block w-full px-4 py-2 mt-2 placeholder-white border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm bg-text-box-gray"
+              className="block w-full px-4 py-2 mt-2 text-gray-200 placeholder-white border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm bg-text-box-gray"
               placeholder="Name"
             />
           </div>
@@ -35,7 +35,7 @@ function Contact() {
               type="text"
               name="email-address"
               id="email-address"
-              className="block w-full px-4 py-2 mt-2 placeholder-white border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm bg-text-box-gray"
+              className="block w-full px-4 py-2 mt-2 text-gray-200 placeholder-white border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm bg-text-box-gray"
               placeholder="Your email id"
             />
           </div>
@@ -45,15 +45,17 @@ function Contact() {
               id="about"
               name="about"
               rows="3"
-              className="block w-full px-4 py-2 mt-2 placeholder-white border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm bg-text-box-gray"
+              className="block w-full px-4 py-2 mt-2 text-gray-200 placeholder-white border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm bg-text-box-gray"
               placeholder="Your message"
             ></textarea>
           </div>
 
-          <div className="">
-            <button className="px-4 py-2 mt-2 text-white rounded bg-my-green hover:bg-my-dark-green">
+          <div className="pt-4">
+          <a href="mailto:tanyasusan92@gmail.com">
+            <span className="px-4 py-2 mt-2 text-white rounded bg-my-green hover:bg-my-dark-green">
               Email me
-            </button>
+            </span>
+          </a>
           </div>
         </div>
       </form>
