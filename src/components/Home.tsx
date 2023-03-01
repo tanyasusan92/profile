@@ -1,6 +1,6 @@
 import About from "./About.js";
-import Services from "./Services.js";
-import Contact from "./Contact.js";
+import Services from "./Services";
+import Contact from "./Contact";
 import Header from "./Header";
 
 function Home() {

@@ -5,13 +5,13 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Home from "./components/Home.js";
+import Home from "./components/Home";
 import About from "./components/About.js";
-import Services from "./components/Services.js";
-import ServicesReact from "./components/ServicesReact.js";
-import ServicesWriting from "./components/ServicesWriting.js";
-import ServicesUI from "./components/ServicesUI.js";
-import Contact from "./components/Contact.js";
+import Services from "./components/Services";
+import ServicesReact from "./components/ServicesReact";
+import ServicesWriting from "./components/ServicesWriting";
+import ServicesUI from "./components/ServicesUI";
+import Contact from "./components/Contact";
 
 function App() {
   return (
