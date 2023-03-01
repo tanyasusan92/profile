@@ -6,7 +6,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import Home from "./components/Home";
-import About from "./components/About.js";
+import About from "./components/About";
 import Services from "./components/Services";
 import ServicesReact from "./components/ServicesReact";
 import ServicesWriting from "./components/ServicesWriting";

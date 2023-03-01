@@ -11,7 +11,7 @@ import { Bar } from "react-chartjs-2";
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip);
 
 export const options = {
-  indexAxis: "y",
+  indexAxis: 'y' as const,
   elements: {
     bar: {
       borderWidth: 1,
@@ -49,26 +49,26 @@ export const options = {
 };
 
 export const data = {
-  labels: ["Html5", "Css3", "React", "Java", "Figma"],
+  labels: ["Html5", "Css3", "React", "Java", "Figma", "Typescript"],
   datasets: [
     {
       backgroundColor: "#008391",
       borderColor: "#008391",
-      data: [20, 20, 20, 20, 20],
+      data: [90, 90, 80, 40, 70, 50],
       barPercentage: 0.8,
       maxBarThickness: 15,
     },
     {
       backgroundColor: "rgb(75, 192, 192)",
       borderColor: "rgb(75, 192, 192)",
-      data: [60, 70, 60, 40, 60],
+      data: [10, 10, 20, 60, 30, 50],
       barPercentage: 0.8,
       maxBarThickness: 15,
     },
     {
       backgroundColor: "#fff",
       borderColor: "#fff",
-      data: [20, 10, 20, 40, 20],
+      data: [0, 0, 0, 0, 0, 0],
       barPercentage: 0.8,
       maxBarThickness: 15,
     },
