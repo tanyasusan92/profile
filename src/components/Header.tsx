@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"; //using navlink to add to the url and s
 function Header() {
   return (
     <div className="flex flex-row h-6">
-      <Link to="/" className="mx-2 text-my-grey">
+      <Link to="/profile" className="mx-2 text-my-grey">
         Home{" "}
       </Link>
       <span className="text-my-grey">|</span>
