@@ -1,5 +1,5 @@
 import About from "./About";
-import Services from "./Services";
+import ServicesSection from "./ServicesSection";
 import Contact from "./Contact";
 import Header from "./Header";
 import TodoApp from "./TodoApp/TodoApp";
@@ -30,7 +30,7 @@ function Home() {
         <TodoApp />
       </div>
       <div id="servicesRef">
-        <Services />
+        <ServicesSection />
       </div>
       <div id="contactRef">
         <Contact />
