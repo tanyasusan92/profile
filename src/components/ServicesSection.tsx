@@ -6,12 +6,12 @@ import ServicesWriting from "./ServicesWriting";
 function ServicesSection() {
   const [tab, setTab] = useState("react");
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-4 bg-my-blue">
-      <div className="w-full px-4 py-10 md:w-3/4 max-w-7xl">
+    <div className="flex flex-col items-center justify-center min-h-full px-4 bg-my-blue">
+      <div className="w-full px-4 py-20 md:w-3/4 max-w-7xl">
         <h1 className="mb-10 text-3xl text-center text-gray-200 md:text-4xl lg:text-5xl lg:mb-20">
           What can i do for you?
         </h1>
-        <div className="flex flex-col items-center justify-center mb-4 md:flex-row xl:mb-10">
+        <div className="flex flex-col items-center justify-center mb-20 md:flex-row">
           <div className="mb-4 mr-4 cursor-pointer">
             <span
               onClick={(e) => setTab("react")}

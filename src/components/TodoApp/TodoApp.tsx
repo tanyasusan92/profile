@@ -16,23 +16,24 @@ const TodoApp:React.FC = () => {
     };
   
     return (
-      <div className="flex flex-col items-center justify-center h-full px-4 py-8 bg-gray-900 select-none">
+      <div className="flex flex-col items-center justify-center h-full px-4 py-20 bg-gray-900 select-none">
         <h1 className="mb-8 text-3xl font-bold text-center text-white">
           What am I upto at the moment? 
         </h1>
-        <div className="flex flex-col items-start w-full p-4 bg-gray-700 rounded-lg md:w-1/2 md:p-8">
+        <div className="flex flex-col items-center w-full p-4 text-center bg-gray-700 rounded-lg md:w-1/2 md:p-8">
           <label
             htmlFor="inputField"
             className="mb-2 text-lg text-white font-sm md:font-medium"
           >
-            I'm coding some React with Typescript. I just built a Todo app with it. Wanna check it out?
+             I've been tinkering with React and Typescript and I just built a Todo app with it. 
+             Care to take a look?
             <br />
             <br />
             Type something + hit Enter!
           </label>
           <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
   
-          <div className="flex flex-wrap text-white">
+          <div className="flex flex-wrap items-center justify-center text-white">
             <TodoList todos={todos} setTodos={setTodos} />
           </div>
         </div>

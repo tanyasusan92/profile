@@ -15,18 +15,25 @@ function Home() {
         </div>
         <div className="absolute bottom-0 left-0 pb-4 pl-4 max-w md:max-w-xl md:pl-10 md:pb-10">
           <h1 className="pb-2 text-3xl text-my-grey md:text-5xl">
-            Hi! <br />
-            I’m Tanya Susan Thomas and I build User Interfaces
+            Hi! I'm Tanya... <br />
           </h1>
-          <button className="px-4 py-2 text-white rounded bg-my-green hover:bg-my-dark-green">
-            Email me
-          </button>
+
+          <p className="pb-2 text-2xl text-my-grey leading-1">
+            And I'm passionate about creating User Interfaces that connect users
+            to digital delight.
+          </p>
+
+          <a href="mailto:tanyasusan92@gmail.com">
+            <span className="px-4 py-2 text-white rounded bg-my-green hover:bg-my-dark-green">
+              Email me
+            </span>
+          </a>
         </div>
       </div>
       <div id="aboutRef">
         <About />
       </div>
-      <div id="servicesRef">
+      <div id="inProgress">
         <TodoApp />
       </div>
       <div id="servicesRef">
