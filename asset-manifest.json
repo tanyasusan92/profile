@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.adacd1e7.css",
-    "main.js": "/profile/static/js/main.a8ca54c1.js",
+    "main.css": "/profile/static/css/main.68af05c5.css",
+    "main.js": "/profile/static/js/main.f0f8df50.js",
     "static/media/phonebg.png": "/profile/static/media/phonebg.617123092e8dd9e5521b.png",
     "static/media/leone-venter-VieM9BdZKFo-unsplash 1.png": "/profile/static/media/leone-venter-VieM9BdZKFo-unsplash 1.06d806078d43c1fccf8c.png",
     "static/media/TanyaPic.jpeg": "/profile/static/media/TanyaPic.6c6e2e57385315ab9da5.jpeg",
@@ -10,11 +10,11 @@
     "static/media/writing.png": "/profile/static/media/writing.97985f4fd0e6f7608c86.png",
     "static/media/atom-symbol.png": "/profile/static/media/atom-symbol.9e1ffe180a275f631f67.png",
     "index.html": "/profile/index.html",
-    "main.adacd1e7.css.map": "/profile/static/css/main.adacd1e7.css.map",
-    "main.a8ca54c1.js.map": "/profile/static/js/main.a8ca54c1.js.map"
+    "main.68af05c5.css.map": "/profile/static/css/main.68af05c5.css.map",
+    "main.f0f8df50.js.map": "/profile/static/js/main.f0f8df50.js.map"
   },
   "entrypoints": [
-    "static/css/main.adacd1e7.css",
-    "static/js/main.a8ca54c1.js"
+    "static/css/main.68af05c5.css",
+    "static/js/main.f0f8df50.js"
   ]
 }
